@@ -17,15 +17,19 @@ It tracks hand landmarks and applies logic to recognize gestures like:
 ✔️ Rock
 ✔️ Palm
 ✔️ Okay
+✔️ Heart
 ✔️ Numbers from 1 to 5
 
 🎥 Live Gesture Detection
 
 → Real-time hand tracking using MediaPipe
+
 → Gesture classification based on finger states
+
 → Includes logic for 10+ gestures (can easily scale more)
 
 🧩 Designed to work on CPU — no GPU needed
+
 🪶 Lightweight & fast even on lower-end systems
 _________________________________________________________________________________________
 
@@ -34,13 +38,13 @@ ________________________________________________________________________________
 The pipeline follows three main stages:
 
 Setup:
-MediaPipe Hands + OpenCV for hand tracking and visualization.
+   MediaPipe Hands + OpenCV for hand tracking and visualization.
 
 Landmark Analysis:
-Extracts 21 hand landmarks in real-time and calculates the position of each finger.
+   Extracts 21 hand landmarks in real-time and calculates the position of each finger.
 
 Logic (Rule-Based):
-Applies boolean logic to determine whether each finger is open or closed, and matches the pattern to a known gesture.
+   Applies boolean logic to determine whether each finger is open or closed, and matches the pattern to a known gesture.
 _________________________________________________________________________________________
 
 ✋ Gestures Supported
@@ -69,9 +73,13 @@ ________________________________________________________________________________
 ⚙️ What's Unique
 
 ✔️ Works in real-time using only your laptop webcam
+
 ✔️ No deep learning model needed — rule-based logic
+
 ✔️ Supports multiple gesture types
+
 ✔️ Automatically displays detected gesture on screen
+
 ✔️ Built entirely in Python — beginner friendly
 _________________________________________________________________________________________
 
